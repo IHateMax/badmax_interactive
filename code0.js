@@ -624,6 +624,8 @@ gdjs.Game_32SceneCode.GDPlayerObjects1.length = 0;
     gdjs.Game_32SceneCode.GDStatusTextObjects1[i].setBBText("Joined!");
 }
 }
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}
 }
 
 }
