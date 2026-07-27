@@ -650,11 +650,6 @@ for (var i = 0, k = 0, l = gdjs.Game_32SceneCode.GDJoinButtonObjects1.length;i<l
 }
 gdjs.Game_32SceneCode.GDJoinButtonObjects1.length = k;
 if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(4).getAsBoolean();
-}
-}
-if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NameInput"), gdjs.Game_32SceneCode.GDNameInputObjects1);
 gdjs.Game_32SceneCode.GDPlayerObjects1.length = 0;
 
