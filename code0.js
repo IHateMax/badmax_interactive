@@ -550,6 +550,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
+/* Reuse gdjs.Game_32SceneCode.GDJoinButtonObjects1 */
 gdjs.copyArray(runtimeScene.getObjects("NameInput"), gdjs.Game_32SceneCode.GDNameInputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("StatusText"), gdjs.Game_32SceneCode.GDStatusTextObjects1);
 gdjs.Game_32SceneCode.GDPlayerObjects1.length = 0;
@@ -587,6 +588,10 @@ gdjs.Game_32SceneCode.GDPlayerObjects1.length = 0;
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UI");
+}
+{for(var i = 0, len = gdjs.Game_32SceneCode.GDJoinButtonObjects1.length ;i < len;++i) {
+    gdjs.Game_32SceneCode.GDJoinButtonObjects1[i].hide();
+}
 }
 }
 
