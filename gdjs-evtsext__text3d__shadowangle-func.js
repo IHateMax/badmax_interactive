@@ -10,7 +10,7 @@ gdjs.evtsExt__Text3D__ShadowAngle.idToCallbackMap = new Map();
 gdjs.evtsExt__Text3D__ShadowAngle.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__ShadowAngle.userFunc0x10e60b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__ShadowAngle.userFunc0xdc0348 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -25,7 +25,7 @@ gdjs.evtsExt__Text3D__ShadowAngle.eventsList0 = function(runtimeScene, eventsFun
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__ShadowAngle.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Text3D__ShadowAngle.GDObjectObjects1;
-gdjs.evtsExt__Text3D__ShadowAngle.userFunc0x10e60b8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Text3D__ShadowAngle.userFunc0xdc0348(runtimeScene, objects, eventsFunctionContext);
 
 }
 
