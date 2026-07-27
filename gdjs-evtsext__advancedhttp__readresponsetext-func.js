@@ -9,7 +9,7 @@ gdjs.evtsExt__AdvancedHTTP__ReadResponseText = {};
 gdjs.evtsExt__AdvancedHTTP__ReadResponseText.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__AdvancedHTTP__ReadResponseText.userFunc0x1dc9a30 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__ReadResponseText.userFunc0x1dd24a8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const logger = (this.logger || (this.logger = new gdjs.Logger("Advanced HTTP")));
 const advancedHTTP = (gdjs._advancedHTTP || (gdjs._advancedHTTP = { responses: new Map(), id: 1 }));
@@ -53,7 +53,7 @@ gdjs.evtsExt__AdvancedHTTP__ReadResponseText.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__AdvancedHTTP__ReadResponseText.userFunc0x1dc9a30(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AdvancedHTTP__ReadResponseText.userFunc0x1dd24a8(runtimeScene, eventsFunctionContext);
 
 }
 
