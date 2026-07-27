@@ -102,8 +102,6 @@ gdjs.Game_32SceneCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-{gdjs.playerAuthentication.removeAuthenticationBanner(runtimeScene);
-}
 {runtimeScene.getScene().getVariables().getFromIndex(10).setBoolean(false);
 }
 {gdjs.multiplayerVariablesManager.disableVariableSynchronization(runtimeScene, runtimeScene.getScene().getVariables().getFromIndex(10));
