@@ -1,31 +1,32 @@
 
-if (typeof gdjs.evtsExt__Raycaster3D__IntersectionZ !== "undefined") {
-  gdjs.evtsExt__Raycaster3D__IntersectionZ.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__UUID__GenerateIncrementedIntegerUID !== "undefined") {
+  gdjs.evtsExt__UUID__GenerateIncrementedIntegerUID.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Raycaster3D__IntersectionZ = {};
-gdjs.evtsExt__Raycaster3D__IntersectionZ.idToCallbackMap = new Map();
+gdjs.evtsExt__UUID__GenerateIncrementedIntegerUID = {};
+gdjs.evtsExt__UUID__GenerateIncrementedIntegerUID.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Raycaster3D__IntersectionZ.userFunc0x1d82d98 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
-"use strict";
-eventsFunctionContext.returnValue = gdjs.__raycaster3DExtension.raycaster.lastPositionZ;
-};
-gdjs.evtsExt__Raycaster3D__IntersectionZ.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__UUID__GenerateIncrementedIntegerUID.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Raycaster3D__IntersectionZ.userFunc0x1d82d98(runtimeScene, eventsFunctionContext);
+let isConditionTrue_0 = false;
+{
+{eventsFunctionContext.returnValue = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("__UUID_IncrementedInteger"));}
+{runtimeScene.getGame().getVariables().get("__UUID_IncrementedInteger").add(1);
+}
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__Raycaster3D__IntersectionZ.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__UUID__GenerateIncrementedIntegerUID.func = function(runtimeScene, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -34,8 +35,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Raycaster3D"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Raycaster3D"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("UUID"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("UUID"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -83,10 +84,10 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
 };
 
 
-gdjs.evtsExt__Raycaster3D__IntersectionZ.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__UUID__GenerateIncrementedIntegerUID.eventsList0(runtimeScene, eventsFunctionContext);
 
 
 return Number(eventsFunctionContext.returnValue) || 0;
 }
 
-gdjs.evtsExt__Raycaster3D__IntersectionZ.registeredGdjsCallbacks = [];
+gdjs.evtsExt__UUID__GenerateIncrementedIntegerUID.registeredGdjsCallbacks = [];
