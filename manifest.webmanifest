@@ -1,8 +1,8 @@
 {
-  "name": "WebsiteHTML",
-  "short_name": "WebsiteHTML",
+  "name": "BAD MAX TV STINK BOARD",
+  "short_name": "BAD MAX TV STINK BOARD",
   "id": "com.example.gamename",
-  "description": "",
+  "description": "Send stinky dog smells and stuff",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
