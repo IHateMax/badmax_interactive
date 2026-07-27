@@ -1,9 +1,9 @@
 {
-  "name": "BAD MAX TV STINK BOARD",
-  "short_name": "BAD MAX TV STINK BOARD",
+  "name": "3D Multiplayer Lobby",
+  "short_name": "3D Multiplayer Lobby",
   "id": "com.example.gamename",
-  "description": "Send stinky dog smells and stuff",
-  "orientation": "landscape",
+  "description": "",
+  "orientation": "any",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",

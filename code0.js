@@ -460,8 +460,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.multiplayer.authenticateAndQuickJoinLobby(runtimeScene, true, true);
 }
-{gdjs.playerAuthentication.removeAuthenticationBanner(runtimeScene);
-}
 
 { //Subevents
 gdjs.Game_32SceneCode.eventsList0(runtimeScene);} //End of subevents
@@ -529,6 +527,35 @@ if (!elseEventsChainSatisfied) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UI");
 }
 elseEventsChainSatisfied = true;
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("dog_player"), gdjs.Game_32SceneCode.GDdog_9595playerObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.multiplayerMessageManager.hasAnyPlayerJustLeft();
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Game_32SceneCode.GDdog_9595playerObjects1.length;i<l;++i) {
+    if ( !(gdjs.Game_32SceneCode.GDdog_9595playerObjects1[i].getBehavior("MultiplayerObject").isObjectOwnedByCurrentPlayer()) ) {
+        isConditionTrue_0 = true;
+        gdjs.Game_32SceneCode.GDdog_9595playerObjects1[k] = gdjs.Game_32SceneCode.GDdog_9595playerObjects1[i];
+        ++k;
+    }
+}
+gdjs.Game_32SceneCode.GDdog_9595playerObjects1.length = k;
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.Game_32SceneCode.GDdog_9595playerObjects1 */
+{for(var i = 0, len = gdjs.Game_32SceneCode.GDdog_9595playerObjects1.length ;i < len;++i) {
+    gdjs.Game_32SceneCode.GDdog_9595playerObjects1[i].deleteFromScene(runtimeScene);
+}
 }
 }
 
