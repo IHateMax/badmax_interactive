@@ -491,7 +491,7 @@ gdjs.copyArray(runtimeScene.getObjects("StatusText"), gdjs.Game_32SceneCode.GDSt
     gdjs.Game_32SceneCode.GDStatusTextObjects1[i].setBBText("Lobby join failed: " + gdjs.multiplayer.getQuickJoinFailureReason());
 }
 }
-{gdjs.multiplayer.authenticateAndQuickJoinLobby(runtimeScene, true, true);
+{gdjs.multiplayer.authenticateAndQuickJoinLobby(runtimeScene, true, false);
 }
 }
 
@@ -662,8 +662,6 @@ gdjs.Game_32SceneCode.GDPlayerObjects1.length = 0;
 {for(var i = 0, len = gdjs.Game_32SceneCode.GDPlayerObjects1.length ;i < len;++i) {
     gdjs.Game_32SceneCode.GDPlayerObjects1[i].getBehavior("MultiplayerObject").takeObjectOwnership();
 }
-}
-{runtimeScene.getScene().getVariables().getFromIndex(4).setBoolean(true);
 }
 {for(var i = 0, len = gdjs.Game_32SceneCode.GDPlayerObjects1.length ;i < len;++i) {
     gdjs.Game_32SceneCode.GDPlayerObjects1[i].returnVariable(gdjs.Game_32SceneCode.GDPlayerObjects1[i].getVariables().getFromIndex(0)).setString((( gdjs.Game_32SceneCode.GDNameInputObjects1.length === 0 ) ? "" :gdjs.Game_32SceneCode.GDNameInputObjects1[0].getText()));
