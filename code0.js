@@ -460,6 +460,8 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.multiplayer.authenticateAndQuickJoinLobby(runtimeScene, true, true);
 }
+{gdjs.playerAuthentication.removeAuthenticationBanner(runtimeScene);
+}
 
 { //Subevents
 gdjs.Game_32SceneCode.eventsList0(runtimeScene);} //End of subevents
