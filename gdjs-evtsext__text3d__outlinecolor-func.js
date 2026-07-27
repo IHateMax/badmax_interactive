@@ -10,7 +10,7 @@ gdjs.evtsExt__Text3D__OutlineColor.idToCallbackMap = new Map();
 gdjs.evtsExt__Text3D__OutlineColor.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__OutlineColor.userFunc0x158d188 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__OutlineColor.userFunc0x10e60b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -25,7 +25,7 @@ gdjs.evtsExt__Text3D__OutlineColor.eventsList0 = function(runtimeScene, eventsFu
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__OutlineColor.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Text3D__OutlineColor.GDObjectObjects1;
-gdjs.evtsExt__Text3D__OutlineColor.userFunc0x158d188(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Text3D__OutlineColor.userFunc0x10e60b8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
