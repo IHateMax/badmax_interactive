@@ -590,7 +590,7 @@ gdjs.Game_32SceneCode.GDPlayerObjects1.length = 0;
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UI");
 }
 {for(var i = 0, len = gdjs.Game_32SceneCode.GDJoinButtonObjects1.length ;i < len;++i) {
-    gdjs.Game_32SceneCode.GDJoinButtonObjects1[i].hide();
+    gdjs.Game_32SceneCode.GDJoinButtonObjects1[i].deleteFromScene(runtimeScene);
 }
 }
 }
