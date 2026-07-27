@@ -478,7 +478,7 @@ gdjs.copyArray(runtimeScene.getObjects("StatusText"), gdjs.Game_32SceneCode.GDSt
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.multiplayer.isLobbyGameRunning();
+isConditionTrue_0 = gdjs.multiplayer.isPlayerConnected(gdjs.multiplayer.getCurrentPlayerNumber());
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(4).getAsBoolean();
