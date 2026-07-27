@@ -558,6 +558,8 @@ elseEventsChainSatisfied = true;
 }
 
 };gdjs.Game_32SceneCode.eventsList13 = function(runtimeScene) {
+
+};gdjs.Game_32SceneCode.eventsList14 = function(runtimeScene) {
 {
 
 let elseEventsChainSatisfied = false;
@@ -1179,6 +1181,37 @@ elseEventsChainSatisfied = true;
 
 }
 
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("dog_player"), gdjs.Game_32SceneCode.GDdog_9595playerObjects1);
+
+for (gdjs.Game_32SceneCode.forEachIndex2 = 0;gdjs.Game_32SceneCode.forEachIndex2 < gdjs.Game_32SceneCode.GDdog_9595playerObjects1.length;++gdjs.Game_32SceneCode.forEachIndex2) {
+gdjs.Game_32SceneCode.GDdog_9595playerObjects2.length = 0;
+
+
+gdjs.Game_32SceneCode.forEachTemporary2 = gdjs.Game_32SceneCode.GDdog_9595playerObjects1[gdjs.Game_32SceneCode.forEachIndex2];
+gdjs.Game_32SceneCode.GDdog_9595playerObjects2.push(gdjs.Game_32SceneCode.forEachTemporary2);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Game_32SceneCode.GDdog_9595playerObjects2.length;i<l;++i) {
+    if ( !(gdjs.Game_32SceneCode.GDdog_9595playerObjects2[i].getBehavior("MultiplayerObject").isObjectOwnedByCurrentPlayer()) ) {
+        isConditionTrue_0 = true;
+        gdjs.Game_32SceneCode.GDdog_9595playerObjects2[k] = gdjs.Game_32SceneCode.GDdog_9595playerObjects2[i];
+        ++k;
+    }
+}
+gdjs.Game_32SceneCode.GDdog_9595playerObjects2.length = k;
+if (isConditionTrue_0) {
+{for(var i = 0, len = gdjs.Game_32SceneCode.GDdog_9595playerObjects2.length ;i < len;++i) {
+    gdjs.Game_32SceneCode.GDdog_9595playerObjects2[i].activateBehavior("ThirdPersonCamera", false);
+}
+}
+}
+}
+
+}
+
 }
 
 };
@@ -1267,7 +1300,7 @@ gdjs.Game_32SceneCode.GDNoteText3DObjects2.length = 0;
 gdjs.Game_32SceneCode.GDNoteText3DObjects3.length = 0;
 gdjs.Game_32SceneCode.GDNoteText3DObjects4.length = 0;
 
-gdjs.Game_32SceneCode.eventsList13(runtimeScene);
+gdjs.Game_32SceneCode.eventsList14(runtimeScene);
 gdjs.Game_32SceneCode.GDPathfindingBoundaryObjects1.length = 0;
 gdjs.Game_32SceneCode.GDPathfindingBoundaryObjects2.length = 0;
 gdjs.Game_32SceneCode.GDPathfindingBoundaryObjects3.length = 0;
