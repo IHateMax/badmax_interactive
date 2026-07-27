@@ -9,7 +9,7 @@ gdjs.evtsExt__MultiplayerCustomLobbies__GameVersion = {};
 gdjs.evtsExt__MultiplayerCustomLobbies__GameVersion.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__MultiplayerCustomLobbies__GameVersion.userFunc0x92e288 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MultiplayerCustomLobbies__GameVersion.userFunc0x16c16a0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.getGame().getGameData().properties.version;
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__MultiplayerCustomLobbies__GameVersion.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__MultiplayerCustomLobbies__GameVersion.userFunc0x92e288(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__MultiplayerCustomLobbies__GameVersion.userFunc0x16c16a0(runtimeScene, eventsFunctionContext);
 
 }
 
