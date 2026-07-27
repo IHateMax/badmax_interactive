@@ -10,7 +10,7 @@ gdjs.evtsExt__Text3D__WrappingWidth.idToCallbackMap = new Map();
 gdjs.evtsExt__Text3D__WrappingWidth.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__WrappingWidth.userFunc0xdc0348 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__WrappingWidth.userFunc0x1ca4498 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -25,7 +25,7 @@ gdjs.evtsExt__Text3D__WrappingWidth.eventsList0 = function(runtimeScene, eventsF
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__WrappingWidth.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Text3D__WrappingWidth.GDObjectObjects1;
-gdjs.evtsExt__Text3D__WrappingWidth.userFunc0xdc0348(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Text3D__WrappingWidth.userFunc0x1ca4498(runtimeScene, objects, eventsFunctionContext);
 
 }
 

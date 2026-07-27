@@ -10,7 +10,7 @@ gdjs.evtsExt__Text3D__SetFont.idToCallbackMap = new Map();
 gdjs.evtsExt__Text3D__SetFont.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__SetFont.userFunc0xdc0348 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__SetFont.userFunc0x1c22d78 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -26,7 +26,7 @@ gdjs.evtsExt__Text3D__SetFont.eventsList0 = function(runtimeScene, eventsFunctio
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__SetFont.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Text3D__SetFont.GDObjectObjects1;
-gdjs.evtsExt__Text3D__SetFont.userFunc0xdc0348(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Text3D__SetFont.userFunc0x1c22d78(runtimeScene, objects, eventsFunctionContext);
 
 }
 
