@@ -1,51 +1,50 @@
 
-if (typeof gdjs.evtsExt__Gamepads__ConnectedGamepadsCount !== "undefined") {
-  gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__Text3D__Font !== "undefined") {
+  gdjs.evtsExt__Text3D__Font.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount = {};
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.idToCallbackMap = new Map();
+gdjs.evtsExt__Text3D__Font = {};
+gdjs.evtsExt__Text3D__Font.idToCallbackMap = new Map();
+gdjs.evtsExt__Text3D__Font.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.userFunc0x15329a8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Font.userFunc0x133de28 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
+/** @type {gdjs.TextRuntimeObject} */
+const object = objects[0];
 
-const gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
-let connectedGamepadCount = 0;
-for (let playerId = 0; playerId < gamepads.length; playerId++) {
-    // Gamepads can be disconnected and become null
-    if (gamepads[playerId]) {
-        connectedGamepadCount++;
-    }
-}
-eventsFunctionContext.returnValue = connectedGamepadCount;
+eventsFunctionContext.returnValue = object._fontName;
 
 };
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Font.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
+gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__Font.GDObjectObjects1);
 
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.userFunc0x15329a8(runtimeScene, eventsFunctionContext);
+const objects = gdjs.evtsExt__Text3D__Font.GDObjectObjects1;
+gdjs.evtsExt__Text3D__Font.userFunc0x133de28(runtimeScene, objects, eventsFunctionContext);
 
 }
 
 
 };
 
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__Text3D__Font.func = function(runtimeScene, Object, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
+"Object": Object
 },
   _objectArraysMap: {
+"Object": gdjs.objectsListsToArray(Object)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Gamepads"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Gamepads"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Text3D"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Text3D"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -92,11 +91,13 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
+gdjs.evtsExt__Text3D__Font.GDObjectObjects1.length = 0;
 
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Text3D__Font.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Text3D__Font.GDObjectObjects1.length = 0;
 
 
-return Number(eventsFunctionContext.returnValue) || 0;
+return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__Gamepads__ConnectedGamepadsCount.registeredGdjsCallbacks = [];
+gdjs.evtsExt__Text3D__Font.registeredGdjsCallbacks = [];
