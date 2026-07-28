@@ -303,7 +303,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.o
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onCreatedContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onCreatedContext.userFunc0xdae410 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onCreatedContext.userFunc0x21f1310 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const {
     ParticleEmitterAdapter,
@@ -469,7 +469,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onCreatedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onCreatedContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onCreatedContext.userFunc0xdae410(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onCreatedContext.userFunc0x21f1310(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -584,7 +584,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.o
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onDestroyContext.GDParticleObjects1= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onDestroyContext.userFunc0x1683a38 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onDestroyContext.userFunc0x21f1310 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject} */
 const object = objects[0];
@@ -616,7 +616,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.o
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onDestroyContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onDestroyContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onDestroyContext.userFunc0x1683a38(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.onDestroyContext.userFunc0x21f1310(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1119,7 +1119,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.U
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateHelperContext.GDParticleObjects1= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateHelperContext.userFunc0x1bc2840 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateHelperContext.userFunc0x21cc050 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 if (game.isInGameEdition && game.isInGameEdition()) {
@@ -1134,7 +1134,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.U
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateHelperContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateHelperContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateHelperContext.userFunc0x1bc2840(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateHelperContext.userFunc0x21cc050(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1225,7 +1225,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.U
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateImageContext.GDParticleObjects1= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateImageContext.userFunc0x2056f40 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateImageContext.userFunc0x21f1310 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -1244,7 +1244,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.U
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateImageContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateImageContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateImageContext.userFunc0x2056f40(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.UpdateImageContext.userFunc0x21f1310(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1337,7 +1337,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.d
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.doStepPostEventsContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.doStepPostEventsContext.userFunc0xec6a38 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.doStepPostEventsContext.userFunc0x21cc050 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -1369,7 +1369,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.d
 /* Reuse gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.doStepPostEventsContext.GDObjectObjects1 */
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.doStepPostEventsContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.doStepPostEventsContext.userFunc0xec6a38(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.doStepPostEventsContext.userFunc0x21cc050(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1519,7 +1519,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.R
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RegisterInLayerContext.GDParticleObjects1= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RegisterInLayerContext.userFunc0xb788c0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RegisterInLayerContext.userFunc0x212f0f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject} */
 const object = objects[0];
@@ -1556,7 +1556,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.R
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RegisterInLayerContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RegisterInLayerContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RegisterInLayerContext.userFunc0xb788c0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RegisterInLayerContext.userFunc0x212f0f8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1647,7 +1647,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.D
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.DeleteContext.GDParticleObjects1= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.DeleteContext.userFunc0x912728 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.DeleteContext.userFunc0x21911a8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 
@@ -1661,7 +1661,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.D
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.DeleteContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.DeleteContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.DeleteContext.userFunc0x912728(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.DeleteContext.userFunc0x21911a8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1752,7 +1752,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.H
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.HasEndedContext.GDParticleObjects1= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.HasEndedContext.userFunc0x10e58a0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.HasEndedContext.userFunc0x218f900 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 
@@ -1769,7 +1769,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.H
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.HasEndedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.HasEndedContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.HasEndedContext.userFunc0x10e58a0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.HasEndedContext.userFunc0x218f900(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1860,7 +1860,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.R
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RestartContext.GDParticleObjects1= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RestartContext.userFunc0x1159d88 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RestartContext.userFunc0x218f4c0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject} */
 const object = objects[0];
@@ -1875,7 +1875,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.R
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RestartContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RestartContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RestartContext.userFunc0x1159d88(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.RestartContext.userFunc0x218f4c0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2287,7 +2287,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationXContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationXContext.userFunc0x1ebeff0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationXContext.userFunc0x21ca4b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 
@@ -2312,7 +2312,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationXContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationXContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationXContext.userFunc0x1ebeff0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationXContext.userFunc0x21ca4b8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2516,7 +2516,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationYContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationYContext.userFunc0x1423098 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationYContext.userFunc0x21f3bf8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 
@@ -2541,7 +2541,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationYContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationYContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationYContext.userFunc0x1423098(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRotationYContext.userFunc0x21f3bf8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2744,7 +2744,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartColorContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartColorContext.userFunc0x1bc2840 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartColorContext.userFunc0x21f2a60 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const startColor = eventsFunctionContext.getArgument("Value");
@@ -2770,7 +2770,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartColorContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartColorContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartColorContext.userFunc0x1bc2840(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartColorContext.userFunc0x21f2a60(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2973,7 +2973,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndColorContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndColorContext.userFunc0x912728 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndColorContext.userFunc0x21f3bf8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const endColor = eventsFunctionContext.getArgument("Value");
@@ -2999,7 +2999,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndColorContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndColorContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndColorContext.userFunc0x912728(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndColorContext.userFunc0x21f3bf8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3202,7 +3202,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartOpacityContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartOpacityContext.userFunc0x1064a80 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartOpacityContext.userFunc0x21f9bc8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const startOpacity = eventsFunctionContext.getArgument("Value");
@@ -3228,7 +3228,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartOpacityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartOpacityContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartOpacityContext.userFunc0x1064a80(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartOpacityContext.userFunc0x21f9bc8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3431,7 +3431,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndOpacityContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndOpacityContext.userFunc0xbd6cd0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndOpacityContext.userFunc0x21df338 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const endOpacity = eventsFunctionContext.getArgument("Value");
@@ -3457,7 +3457,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndOpacityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndOpacityContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndOpacityContext.userFunc0xbd6cd0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndOpacityContext.userFunc0x21df338(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3660,7 +3660,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetFlowContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetFlowContext.userFunc0x1c5e4b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetFlowContext.userFunc0x21e2758 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const flow = eventsFunctionContext.getArgument("Value");
@@ -3687,7 +3687,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetFlowContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetFlowContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetFlowContext.userFunc0x1c5e4b8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetFlowContext.userFunc0x21e2758(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -3890,7 +3890,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMinContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMinContext.userFunc0xb788c0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMinContext.userFunc0x21dbf50 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const startMinSize = eventsFunctionContext.getArgument("Value");
@@ -3916,7 +3916,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMinContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMinContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMinContext.userFunc0xb788c0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMinContext.userFunc0x21dbf50(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4119,7 +4119,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMaxContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMaxContext.userFunc0x1dad9c8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMaxContext.userFunc0x21adcc8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const startMaxSize = eventsFunctionContext.getArgument("Value");
@@ -4146,7 +4146,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMaxContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMaxContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMaxContext.userFunc0x1dad9c8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSizeMaxContext.userFunc0x21adcc8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4349,7 +4349,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndScaleContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndScaleContext.userFunc0x9074c8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndScaleContext.userFunc0x21b37e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const endScale = eventsFunctionContext.getArgument("Value");
@@ -4376,7 +4376,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndScaleContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndScaleContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndScaleContext.userFunc0x9074c8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetEndScaleContext.userFunc0x21b37e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4579,7 +4579,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMinContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMinContext.userFunc0x1dad9c8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMinContext.userFunc0x21d5750 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const startSpeedMin = eventsFunctionContext.getArgument("Value");
@@ -4605,7 +4605,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMinContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMinContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMinContext.userFunc0x1dad9c8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMinContext.userFunc0x21d5750(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -4808,7 +4808,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMaxContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMaxContext.userFunc0x1dad9c8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMaxContext.userFunc0x21dbf50 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const startSpeedMax = eventsFunctionContext.getArgument("Value");
@@ -4834,7 +4834,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMaxContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMaxContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMaxContext.userFunc0x1dad9c8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetStartSpeedMaxContext.userFunc0x21dbf50(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5037,7 +5037,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMinContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMinContext.userFunc0x1ae4948 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMinContext.userFunc0x21b37e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const lifespanMin = eventsFunctionContext.getArgument("Value");
@@ -5064,7 +5064,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMinContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMinContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMinContext.userFunc0x1ae4948(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMinContext.userFunc0x21b37e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5267,7 +5267,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMaxContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMaxContext.userFunc0x1ae4948 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMaxContext.userFunc0x21d25c8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const lifespanMax = eventsFunctionContext.getArgument("Value");
@@ -5294,7 +5294,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMaxContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMaxContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMaxContext.userFunc0x1ae4948(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetLifespanMaxContext.userFunc0x21d25c8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5497,7 +5497,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetDurationContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetDurationContext.userFunc0x1c5e4b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetDurationContext.userFunc0x21b37e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const duration = eventsFunctionContext.getArgument("Value");
@@ -5524,7 +5524,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetDurationContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetDurationContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetDurationContext.userFunc0x1c5e4b8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetDurationContext.userFunc0x21b37e0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5730,7 +5730,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetAreParticlesRelativeContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetAreParticlesRelativeContext.userFunc0xec6a60 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetAreParticlesRelativeContext.userFunc0x2146b20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const areParticlesRelative = eventsFunctionContext.getArgument("Value");
@@ -5775,7 +5775,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetAreParticlesRelativeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetAreParticlesRelativeContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetAreParticlesRelativeContext.userFunc0xec6a60(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetAreParticlesRelativeContext.userFunc0x2146b20(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -5978,7 +5978,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetSpayConeAngleContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetSpayConeAngleContext.userFunc0x1ebeff0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetSpayConeAngleContext.userFunc0x2186b30 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const sprayConeAngle = eventsFunctionContext.getArgument("Value");
@@ -6005,7 +6005,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetSpayConeAngleContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetSpayConeAngleContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetSpayConeAngleContext.userFunc0x1ebeff0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetSpayConeAngleContext.userFunc0x2186b30(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6208,7 +6208,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetBlendingContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetBlendingContext.userFunc0x1ebeff0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetBlendingContext.userFunc0x21c7418 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const blending = eventsFunctionContext.getArgument("Value");
@@ -6235,7 +6235,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetBlendingContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetBlendingContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetBlendingContext.userFunc0x1ebeff0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetBlendingContext.userFunc0x21c7418(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6438,7 +6438,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityTopContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityTopContext.userFunc0xe77650 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityTopContext.userFunc0x21c7418 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const gravityTop = eventsFunctionContext.getArgument("Value");
@@ -6465,7 +6465,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityTopContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityTopContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityTopContext.userFunc0xe77650(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityTopContext.userFunc0x21c7418(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -6668,7 +6668,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityContext.userFunc0xe77650 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityContext.userFunc0x21c7418 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const gravity = eventsFunctionContext.getArgument("Value");
@@ -6695,7 +6695,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityContext.userFunc0xe77650(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetGravityContext.userFunc0x21c7418(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7131,7 +7131,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMinContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMinContext.userFunc0x10e58a0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMinContext.userFunc0x2175fb8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const value = eventsFunctionContext.getArgument("Value");
@@ -7157,7 +7157,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMinContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMinContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMinContext.userFunc0x10e58a0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMinContext.userFunc0x2175fb8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7360,7 +7360,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMaxContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMaxContext.userFunc0x912728 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMaxContext.userFunc0x2175fb8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const value = eventsFunctionContext.getArgument("Value");
@@ -7386,7 +7386,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMaxContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMaxContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMaxContext.userFunc0x912728(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailStartLengthMaxContext.userFunc0x2175fb8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7592,7 +7592,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetIsTrailFollowingLocalOriginContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetIsTrailFollowingLocalOriginContext.userFunc0x912728 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetIsTrailFollowingLocalOriginContext.userFunc0x21498f0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const value = eventsFunctionContext.getArgument("Value");
@@ -7636,7 +7636,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetIsTrailFollowingLocalOriginContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetIsTrailFollowingLocalOriginContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetIsTrailFollowingLocalOriginContext.userFunc0x912728(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetIsTrailFollowingLocalOriginContext.userFunc0x21498f0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -7839,7 +7839,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailEndWidthRatioContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailEndWidthRatioContext.userFunc0xbd6cd0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailEndWidthRatioContext.userFunc0x2175fb8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const value = eventsFunctionContext.getArgument("Value");
@@ -7865,7 +7865,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailEndWidthRatioContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailEndWidthRatioContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailEndWidthRatioContext.userFunc0xbd6cd0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetTrailEndWidthRatioContext.userFunc0x2175fb8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -8068,7 +8068,7 @@ gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.S
 gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRenderModeContext.GDParticleObjects2= [];
 
 
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRenderModeContext.userFunc0x912728 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRenderModeContext.userFunc0x2175fb8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const value = eventsFunctionContext.getArgument("Value");
@@ -8094,7 +8094,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRenderModeContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRenderModeContext.GDObjectObjects1;
-gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRenderModeContext.userFunc0x912728(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__ParticleEmitter3D__ParticleEmitter3D.ParticleEmitter3D.prototype.SetRenderModeContext.userFunc0x2175fb8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
