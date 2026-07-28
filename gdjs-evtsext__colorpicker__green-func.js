@@ -9,7 +9,7 @@ gdjs.evtsExt__ColorPicker__GREEN = {};
 gdjs.evtsExt__ColorPicker__GREEN.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ColorPicker__GREEN.userFunc0x1e3c4b8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__GREEN.userFunc0x1021050 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // get the picker.
 var hex = document.getElementById('colorpicker').value
@@ -39,7 +39,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__ColorPicker__GREEN.userFunc0x1e3c4b8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__GREEN.userFunc0x1021050(runtimeScene, eventsFunctionContext);
 
 }
 
