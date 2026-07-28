@@ -9,7 +9,7 @@ gdjs.evtsExt__ColorPicker__CreatePicker = {};
 gdjs.evtsExt__ColorPicker__CreatePicker.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0x220f7f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0x225bea0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // get the X,Y position.
 var X = eventsFunctionContext.getArgument("X")
@@ -34,7 +34,7 @@ gdjs.evtsExt__ColorPicker__CreatePicker.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0x220f7f0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0x225bea0(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -10,7 +10,7 @@ gdjs.evtsExt__Text3D__ShadowColor.idToCallbackMap = new Map();
 gdjs.evtsExt__Text3D__ShadowColor.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__ShadowColor.userFunc0x123f8f0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__ShadowColor.userFunc0x12fdf30 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -25,7 +25,7 @@ gdjs.evtsExt__Text3D__ShadowColor.eventsList0 = function(runtimeScene, eventsFun
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__ShadowColor.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Text3D__ShadowColor.GDObjectObjects1;
-gdjs.evtsExt__Text3D__ShadowColor.userFunc0x123f8f0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Text3D__ShadowColor.userFunc0x12fdf30(runtimeScene, objects, eventsFunctionContext);
 
 }
 

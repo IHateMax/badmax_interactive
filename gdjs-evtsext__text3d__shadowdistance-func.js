@@ -10,7 +10,7 @@ gdjs.evtsExt__Text3D__ShadowDistance.idToCallbackMap = new Map();
 gdjs.evtsExt__Text3D__ShadowDistance.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__ShadowDistance.userFunc0x9b66d8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__ShadowDistance.userFunc0x201da10 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -25,7 +25,7 @@ gdjs.evtsExt__Text3D__ShadowDistance.eventsList0 = function(runtimeScene, events
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__ShadowDistance.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Text3D__ShadowDistance.GDObjectObjects1;
-gdjs.evtsExt__Text3D__ShadowDistance.userFunc0x9b66d8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Text3D__ShadowDistance.userFunc0x201da10(runtimeScene, objects, eventsFunctionContext);
 
 }
 

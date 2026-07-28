@@ -9,7 +9,7 @@ gdjs.evtsExt__UUID__GenerateUUIDv4 = {};
 gdjs.evtsExt__UUID__GenerateUUIDv4.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__UUID__GenerateUUIDv4.userFunc0x220f7f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__UUID__GenerateUUIDv4.userFunc0x225bea0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Use the engine implementation of UUIDv4.
 eventsFunctionContext.returnValue = gdjs.makeUuid();
@@ -20,7 +20,7 @@ gdjs.evtsExt__UUID__GenerateUUIDv4.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__UUID__GenerateUUIDv4.userFunc0x220f7f0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__UUID__GenerateUUIDv4.userFunc0x225bea0(runtimeScene, eventsFunctionContext);
 
 }
 
