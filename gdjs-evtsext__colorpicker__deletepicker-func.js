@@ -1,43 +1,44 @@
 
-if (typeof gdjs.evtsExt__Gamepads__C_Controller_type !== "undefined") {
-  gdjs.evtsExt__Gamepads__C_Controller_type.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__ColorPicker__DeletePicker !== "undefined") {
+  gdjs.evtsExt__ColorPicker__DeletePicker.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Gamepads__C_Controller_type = {};
-gdjs.evtsExt__Gamepads__C_Controller_type.idToCallbackMap = new Map();
+gdjs.evtsExt__ColorPicker__DeletePicker = {};
+gdjs.evtsExt__ColorPicker__DeletePicker.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__C_Controller_type.userFunc0xf677a0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__DeletePicker.userFunc0x1ddeec0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-const playerId = eventsFunctionContext.getArgument("PlayerId") - 1;
-const controllerType = eventsFunctionContext.getArgument("controller_type").toUpperCase();
-/** @type {Gamepad} */
-const gamepad = gdjs._extensionController.getGamepad(playerId);
-if (!gamepad) {
-    // The gamepad is not connected.
-    return;
-}
-if (controllerType == "XBOX") {
-    eventsFunctionContext.returnValue = gdjs._extensionController.isXbox(gamepad);
-} else {
-    eventsFunctionContext.returnValue = gamepad ? gamepad.id.toUpperCase().indexOf(controllerType) !== -1 : false;
+var picker = document.getElementById("colorpicker");
+if (picker) {
+  picker.remove();
 }
 };
-gdjs.evtsExt__Gamepads__C_Controller_type.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__DeletePicker.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Gamepads__C_Controller_type.userFunc0xf677a0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__DeletePicker.userFunc0x1ddeec0(runtimeScene, eventsFunctionContext);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__Gamepads__C_Controller_type.func = function(runtimeScene, PlayerId, controller_type, parentEventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__DeletePicker.func = function(runtimeScene, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -46,8 +47,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Gamepads"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Gamepads"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ColorPicker"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ColorPicker"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -89,18 +90,16 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "PlayerId") return PlayerId;
-if (argName === "controller_type") return controller_type;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__Gamepads__C_Controller_type.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__DeletePicker.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return !!eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__Gamepads__C_Controller_type.registeredGdjsCallbacks = [];
+gdjs.evtsExt__ColorPicker__DeletePicker.registeredGdjsCallbacks = [];

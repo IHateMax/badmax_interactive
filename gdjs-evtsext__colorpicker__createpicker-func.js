@@ -1,43 +1,58 @@
 
-if (typeof gdjs.evtsExt__Gamepads__C_Controller_type !== "undefined") {
-  gdjs.evtsExt__Gamepads__C_Controller_type.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__ColorPicker__CreatePicker !== "undefined") {
+  gdjs.evtsExt__ColorPicker__CreatePicker.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Gamepads__C_Controller_type = {};
-gdjs.evtsExt__Gamepads__C_Controller_type.idToCallbackMap = new Map();
+gdjs.evtsExt__ColorPicker__CreatePicker = {};
+gdjs.evtsExt__ColorPicker__CreatePicker.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__C_Controller_type.userFunc0xf677a0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0xcee060 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-const playerId = eventsFunctionContext.getArgument("PlayerId") - 1;
-const controllerType = eventsFunctionContext.getArgument("controller_type").toUpperCase();
-/** @type {Gamepad} */
-const gamepad = gdjs._extensionController.getGamepad(playerId);
-if (!gamepad) {
-    // The gamepad is not connected.
-    return;
-}
-if (controllerType == "XBOX") {
-    eventsFunctionContext.returnValue = gdjs._extensionController.isXbox(gamepad);
-} else {
-    eventsFunctionContext.returnValue = gamepad ? gamepad.id.toUpperCase().indexOf(controllerType) !== -1 : false;
-}
+// get the X,Y position.
+var X = eventsFunctionContext.getArgument("X")
+var Y = eventsFunctionContext.getArgument("Y")
+
+
+// Create picker.
+const colorPicker = document.createElement("input")
+colorPicker.type = 'color'
+colorPicker.id = 'colorpicker'
+document.body.appendChild(colorPicker)
+
+// Position. 
+colorPicker.style.position = 'absolute'
+colorPicker.style.left = X + 'px'
+colorPicker.style.top = Y + 'px'
+
+
+
 };
-gdjs.evtsExt__Gamepads__C_Controller_type.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__CreatePicker.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Gamepads__C_Controller_type.userFunc0xf677a0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0xcee060(runtimeScene, eventsFunctionContext);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__Gamepads__C_Controller_type.func = function(runtimeScene, PlayerId, controller_type, parentEventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__CreatePicker.func = function(runtimeScene, X, Y, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -46,8 +61,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Gamepads"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Gamepads"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ColorPicker"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ColorPicker"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -89,18 +104,18 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "PlayerId") return PlayerId;
-if (argName === "controller_type") return controller_type;
+if (argName === "X") return X;
+if (argName === "Y") return Y;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__Gamepads__C_Controller_type.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__CreatePicker.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return !!eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__Gamepads__C_Controller_type.registeredGdjsCallbacks = [];
+gdjs.evtsExt__ColorPicker__CreatePicker.registeredGdjsCallbacks = [];
