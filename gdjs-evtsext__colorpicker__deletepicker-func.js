@@ -9,7 +9,7 @@ gdjs.evtsExt__ColorPicker__DeletePicker = {};
 gdjs.evtsExt__ColorPicker__DeletePicker.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ColorPicker__DeletePicker.userFunc0x1ddeec0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__DeletePicker.userFunc0x1e3a978 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 var picker = document.getElementById("colorpicker");
 if (picker) {
@@ -21,7 +21,7 @@ gdjs.evtsExt__ColorPicker__DeletePicker.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__ColorPicker__DeletePicker.userFunc0x1ddeec0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__DeletePicker.userFunc0x1e3a978(runtimeScene, eventsFunctionContext);
 
 }
 
