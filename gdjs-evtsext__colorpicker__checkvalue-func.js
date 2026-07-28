@@ -9,7 +9,7 @@ gdjs.evtsExt__ColorPicker__CheckValue = {};
 gdjs.evtsExt__ColorPicker__CheckValue.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ColorPicker__CheckValue.userFunc0x1021050 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__CheckValue.userFunc0x1634498 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // get the picker.
 var colorPicker = document.getElementById("colorpicker")
@@ -32,7 +32,7 @@ gdjs.evtsExt__ColorPicker__CheckValue.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__ColorPicker__CheckValue.userFunc0x1021050(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__CheckValue.userFunc0x1634498(runtimeScene, eventsFunctionContext);
 
 }
 

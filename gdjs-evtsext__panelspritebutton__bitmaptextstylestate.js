@@ -498,7 +498,7 @@ gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.proto
 gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0xef7238 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0x909f20 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.BitmapTextRuntimeObject} */
 const object = eventsFunctionContext.getObjects("Object")[0];
@@ -510,7 +510,7 @@ gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.proto
 {
 
 
-gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0xef7238(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PanelSpriteButton__BitmapTextStyleState.BitmapTextStyleState.prototype.ColorContext.userFunc0x909f20(runtimeScene, eventsFunctionContext);
 
 }
 

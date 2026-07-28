@@ -9,7 +9,7 @@ gdjs.evtsExt__ColorPicker__CreatePicker = {};
 gdjs.evtsExt__ColorPicker__CreatePicker.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0x1021050 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0x1634498 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // get the X,Y position.
 var X = eventsFunctionContext.getArgument("X")
@@ -23,19 +23,18 @@ colorPicker.id = 'colorpicker'
 document.body.appendChild(colorPicker)
 
 // Position. 
-colorPicker.style.position = 'absolute'
-colorPicker.style.left = X + 'px'
-colorPicker.style.top = Y + 'px'
-
-
-
+colorPicker.style.position = 'fixed';
+colorPicker.style.left = X + '%';
+colorPicker.style.top  = Y + '%';
+colorPicker.style.transform = 'translate(-50%, -50%)';
+colorPicker.style.zIndex = '9999';
 };
 gdjs.evtsExt__ColorPicker__CreatePicker.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0x1021050(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ColorPicker__CreatePicker.userFunc0x1634498(runtimeScene, eventsFunctionContext);
 
 }
 
