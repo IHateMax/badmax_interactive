@@ -1,31 +1,49 @@
 
-if (typeof gdjs.evtsExt__Raycaster3D__IntersectionX !== "undefined") {
-  gdjs.evtsExt__Raycaster3D__IntersectionX.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__Iframe__Delete !== "undefined") {
+  gdjs.evtsExt__Iframe__Delete.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Raycaster3D__IntersectionX = {};
-gdjs.evtsExt__Raycaster3D__IntersectionX.idToCallbackMap = new Map();
+gdjs.evtsExt__Iframe__Delete = {};
+gdjs.evtsExt__Iframe__Delete.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Raycaster3D__IntersectionX.userFunc0x23b32c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Iframe__Delete.userFunc0x1ea51b8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-eventsFunctionContext.returnValue = gdjs.__raycaster3DExtension.raycaster.lastPositionX;
+document.getElementById(eventsFunctionContext.getArgument("Name")).remove();
 };
-gdjs.evtsExt__Raycaster3D__IntersectionX.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Iframe__Delete.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__Raycaster3D__IntersectionX.userFunc0x23b32c0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Iframe__Delete.userFunc0x1ea51b8(runtimeScene, eventsFunctionContext);
+
+}
+
+
+};gdjs.evtsExt__Iframe__Delete.eventsList1 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(25536652);
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.evtsExt__Iframe__Delete.eventsList0(runtimeScene, eventsFunctionContext);} //End of subevents
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__Raycaster3D__IntersectionX.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__Iframe__Delete.func = function(runtimeScene, Name, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -34,8 +52,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Raycaster3D"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Raycaster3D"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Iframe"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Iframe"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -77,16 +95,17 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "Name") return Name;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__Raycaster3D__IntersectionX.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Iframe__Delete.eventsList1(runtimeScene, eventsFunctionContext);
 
 
-return Number(eventsFunctionContext.returnValue) || 0;
+return;
 }
 
-gdjs.evtsExt__Raycaster3D__IntersectionX.registeredGdjsCallbacks = [];
+gdjs.evtsExt__Iframe__Delete.registeredGdjsCallbacks = [];
