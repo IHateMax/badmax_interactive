@@ -2198,7 +2198,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(0).setBoolean(true);
 }
-{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "video_test", "https://videopress.com/v/SS9IZkm9", 1920 / 2, 1080 / 2, (gdjs.evtTools.window.getWindowInnerWidth() / 2) - ((1920 / 2) / 2), (gdjs.evtTools.window.getWindowInnerHeight() / 2) - ((1080 / 2) / 2), false, true, "", null);
+{gdjs.evtsExt__Iframe__Create.func(runtimeScene, "video_test", "https://videopress.com/v/SS9IZkm9", gdjs.evtTools.window.getWindowInnerWidth() / 2, gdjs.evtTools.window.getWindowInnerHeight() / 2, (gdjs.evtTools.window.getWindowInnerWidth() / 2) - (gdjs.evtTools.window.getWindowInnerWidth() / 2), (gdjs.evtTools.window.getWindowInnerHeight() / 2) - (gdjs.evtTools.window.getWindowInnerHeight() / 2), false, true, "", null);
 }
 }
 
@@ -2383,7 +2383,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Game_32SceneCode.userFunc0xba4e98 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Game_32SceneCode.userFunc0x1b4d638 = function GDJSInlineCode(runtimeScene) {
 try {
   var raw = runtimeScene
     .getVariables()
@@ -2955,7 +2955,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Game_32SceneCode.userFunc0xba4e98(runtimeScene);
+gdjs.Game_32SceneCode.userFunc0x1b4d638(runtimeScene);
 
 }
 
@@ -3264,7 +3264,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResp
 }
 
 
-};gdjs.Game_32SceneCode.userFunc0x1cd5e48 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Game_32SceneCode.userFunc0x13712b0 = function GDJSInlineCode(runtimeScene) {
 // Firebase RTDB live stream (SSE) -> PlayersData. Opens once; browser auto-reconnects.
 try {
   if (!gdjs.__pStream) {
@@ -3308,7 +3308,7 @@ gdjs.Game_32SceneCode.eventsList28 = function(runtimeScene) {
 {
 
 
-gdjs.Game_32SceneCode.userFunc0x1cd5e48(runtimeScene);
+gdjs.Game_32SceneCode.userFunc0x13712b0(runtimeScene);
 
 }
 
