@@ -386,7 +386,7 @@ for(var i = 0, len = gdjs.Game_32SceneCode.GDcrawly_9595selectObjects2.length ;i
     gdjs.Game_32SceneCode.GDcrawly_9595selectObjects2[i].deleteFromScene(runtimeScene);
 }
 }
-{gdjs.evtTools.object.createObjectFromGroupOnScene(runtimeScene, gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDdog_95959595selectObjects2ObjectsGDgdjs_9546Game_959532SceneCode_9546GDcrawly_95959595selectObjects2Objects, "dog_select", gdjs.evtTools.window.getWindowInnerWidth() / 2, gdjs.evtTools.window.getWindowInnerHeight() / 2, "UI");
+{gdjs.evtTools.object.createObjectFromGroupOnScene(runtimeScene, gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDdog_95959595selectObjects2ObjectsGDgdjs_9546Game_959532SceneCode_9546GDcrawly_95959595selectObjects2Objects, "dog_select", gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2, gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2, "UI");
 }
 {for(var i = 0, len = gdjs.Game_32SceneCode.GDdog_9595selectObjects2.length ;i < len;++i) {
     gdjs.Game_32SceneCode.GDdog_9595selectObjects2[i].getBehavior("Object3D").setRotationX(90);
@@ -419,7 +419,7 @@ for(var i = 0, len = gdjs.Game_32SceneCode.GDcrawly_9595selectObjects1.length ;i
     gdjs.Game_32SceneCode.GDcrawly_9595selectObjects1[i].deleteFromScene(runtimeScene);
 }
 }
-{gdjs.evtTools.object.createObjectFromGroupOnScene(runtimeScene, gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDdog_95959595selectObjects1ObjectsGDgdjs_9546Game_959532SceneCode_9546GDcrawly_95959595selectObjects1Objects, "crawly_select", gdjs.evtTools.window.getWindowInnerWidth() / 2, gdjs.evtTools.window.getWindowInnerHeight() / 2, "UI");
+{gdjs.evtTools.object.createObjectFromGroupOnScene(runtimeScene, gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDdog_95959595selectObjects1ObjectsGDgdjs_9546Game_959532SceneCode_9546GDcrawly_95959595selectObjects1Objects, "crawly_select", gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2, gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2, "UI");
 }
 {for(var i = 0, len = gdjs.Game_32SceneCode.GDdog_9595selectObjects1.length ;i < len;++i) {
     gdjs.Game_32SceneCode.GDdog_9595selectObjects1[i].getBehavior("Object3D").setRotationX(90);
@@ -2383,7 +2383,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Game_32SceneCode.userFunc0x1b4d638 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Game_32SceneCode.userFunc0xe403c8 = function GDJSInlineCode(runtimeScene) {
 try {
   var raw = runtimeScene
     .getVariables()
@@ -2955,7 +2955,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Game_32SceneCode.userFunc0x1b4d638(runtimeScene);
+gdjs.Game_32SceneCode.userFunc0xe403c8(runtimeScene);
 
 }
 
@@ -3264,7 +3264,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResp
 }
 
 
-};gdjs.Game_32SceneCode.userFunc0x13712b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Game_32SceneCode.userFunc0xc2b1f8 = function GDJSInlineCode(runtimeScene) {
 // Firebase RTDB live stream (SSE) -> PlayersData. Opens once; browser auto-reconnects.
 try {
   if (!gdjs.__pStream) {
@@ -3308,7 +3308,7 @@ gdjs.Game_32SceneCode.eventsList28 = function(runtimeScene) {
 {
 
 
-gdjs.Game_32SceneCode.userFunc0x13712b0(runtimeScene);
+gdjs.Game_32SceneCode.userFunc0xc2b1f8(runtimeScene);
 
 }
 
