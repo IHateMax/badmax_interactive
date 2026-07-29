@@ -9,7 +9,7 @@ gdjs.evtsExt__TwoChoicesDialogBoxes__IsInGameEdition = {};
 gdjs.evtsExt__TwoChoicesDialogBoxes__IsInGameEdition.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__TwoChoicesDialogBoxes__IsInGameEdition.userFunc0x203de28 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TwoChoicesDialogBoxes__IsInGameEdition.userFunc0x19e9cc0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const game = runtimeScene.getGame();
 eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
@@ -19,7 +19,7 @@ gdjs.evtsExt__TwoChoicesDialogBoxes__IsInGameEdition.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__TwoChoicesDialogBoxes__IsInGameEdition.userFunc0x203de28(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__TwoChoicesDialogBoxes__IsInGameEdition.userFunc0x19e9cc0(runtimeScene, eventsFunctionContext);
 
 }
 

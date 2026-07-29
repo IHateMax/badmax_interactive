@@ -10,7 +10,7 @@ gdjs.evtsExt__Text3D__ShadowBlurRadius.idToCallbackMap = new Map();
 gdjs.evtsExt__Text3D__ShadowBlurRadius.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__ShadowBlurRadius.userFunc0x1915958 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__ShadowBlurRadius.userFunc0x2124718 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -25,7 +25,7 @@ gdjs.evtsExt__Text3D__ShadowBlurRadius.eventsList0 = function(runtimeScene, even
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__ShadowBlurRadius.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Text3D__ShadowBlurRadius.GDObjectObjects1;
-gdjs.evtsExt__Text3D__ShadowBlurRadius.userFunc0x1915958(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Text3D__ShadowBlurRadius.userFunc0x2124718(runtimeScene, objects, eventsFunctionContext);
 
 }
 
