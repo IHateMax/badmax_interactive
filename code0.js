@@ -249,6 +249,18 @@ let isConditionTrue_0 = false;
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.sound.playMusic(runtimeScene, "assets/ELECTRICMIXEDGOOD.mp3", false, 50, 1);
+}
+}
+
+}
+
+
 };gdjs.Game_32SceneCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -1717,7 +1729,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Game_32SceneCode.userFunc0x2416220 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Game_32SceneCode.userFunc0x1af6e80 = function GDJSInlineCode(runtimeScene) {
 try {
   var raw = runtimeScene
     .getVariables()
@@ -2289,7 +2301,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.Game_32SceneCode.userFunc0x2416220(runtimeScene);
+gdjs.Game_32SceneCode.userFunc0x1af6e80(runtimeScene);
 
 }
 
@@ -2597,7 +2609,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResp
 }
 
 
-};gdjs.Game_32SceneCode.userFunc0x2275300 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Game_32SceneCode.userFunc0x21707b8 = function GDJSInlineCode(runtimeScene) {
 // Firebase RTDB live stream (SSE) -> PlayersData. Opens once; browser auto-reconnects.
 try {
   if (!gdjs.__pStream) {
@@ -2641,7 +2653,7 @@ gdjs.Game_32SceneCode.eventsList25 = function(runtimeScene) {
 {
 
 
-gdjs.Game_32SceneCode.userFunc0x2275300(runtimeScene);
+gdjs.Game_32SceneCode.userFunc0x21707b8(runtimeScene);
 
 }
 
