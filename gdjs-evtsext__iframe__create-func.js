@@ -9,7 +9,7 @@ gdjs.evtsExt__Iframe__Create = {};
 gdjs.evtsExt__Iframe__Create.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Iframe__Create.userFunc0x1b93ee0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Iframe__Create.userFunc0x1b92078 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const iframe = document.createElement("iframe");
 
@@ -36,7 +36,7 @@ gdjs.evtsExt__Iframe__Create.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__Iframe__Create.userFunc0x1b93ee0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Iframe__Create.userFunc0x1b92078(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -48,7 +48,7 @@ gdjs.evtsExt__Iframe__Create.userFunc0x1b93ee0(runtimeScene, eventsFunctionConte
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19995284);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(19995556);
 }
 if (isConditionTrue_0) {
 
