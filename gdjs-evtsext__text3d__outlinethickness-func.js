@@ -10,7 +10,7 @@ gdjs.evtsExt__Text3D__OutlineThickness.idToCallbackMap = new Map();
 gdjs.evtsExt__Text3D__OutlineThickness.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__OutlineThickness.userFunc0xe61ee0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__OutlineThickness.userFunc0x15d3998 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -25,7 +25,7 @@ gdjs.evtsExt__Text3D__OutlineThickness.eventsList0 = function(runtimeScene, even
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D__OutlineThickness.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__Text3D__OutlineThickness.GDObjectObjects1;
-gdjs.evtsExt__Text3D__OutlineThickness.userFunc0xe61ee0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__Text3D__OutlineThickness.userFunc0x15d3998(runtimeScene, objects, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__Iframe__Delete = {};
 gdjs.evtsExt__Iframe__Delete.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Iframe__Delete.userFunc0x1936fa0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Iframe__Delete.userFunc0x1b98c70 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 document.getElementById(eventsFunctionContext.getArgument("Name")).remove();
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__Iframe__Delete.eventsList0 = function(runtimeScene, eventsFunction
 {
 
 
-gdjs.evtsExt__Iframe__Delete.userFunc0x1936fa0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Iframe__Delete.userFunc0x1b98c70(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -30,7 +30,7 @@ gdjs.evtsExt__Iframe__Delete.userFunc0x1936fa0(runtimeScene, eventsFunctionConte
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20000900);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(20562452);
 }
 if (isConditionTrue_0) {
 
